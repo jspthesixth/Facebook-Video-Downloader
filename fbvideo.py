@@ -31,7 +31,6 @@ class FacebookVideoDownload:
 
     def catch(self):
         self.new_url = self.get_link()
-        
         try:
             html = self.browser.open(self.new_url) 
         except:
